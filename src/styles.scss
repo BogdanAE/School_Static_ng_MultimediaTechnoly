@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.sticky {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.main-header {
+    height: 250px;
+    width: 100%;
+    position: relative;
+     //background-color: cornflowerblue;
+     //border: 1px solid black;
+}
+
+.blue-background {
+    //background-color: blue;
+    //border: 1px solid black;
+    min-height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+//     background: #e96443; /* fallback for old browsers */
+//   background: -webkit-linear-gradient(to right, #e96443, #904e95); /* Chrome 10-25, Safari 5.1-6 */
+//   background: linear-gradient(to right, #e96443, #904e95);
+}
+
+.spacer {
+    margin: 20px 0;
+}
+
+.margin-auto {
+    margin: auto;;
+}
+
+.mat-elevation-z7.spacer{
+    background: #BA5370;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.social-icons { display: block; height: 64px; margin-right: 0px; margin-top: 4px; text-align: center; box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;  }
+    .social-icons a{ display:inline-block; height:48px; width:48px; margin-left: 20px;}
+     .social-icons a img{ box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; padding: 8px;}
+     .facebook{ background-color:#346da6 }
+     .facebook:hover{ background-color:#3b3a36 }
+    .twitter{ background-color:#429ecc }
+    .twitter:hover{ background-color:#3b3a36 }
+    .linkedin{ background-color:#346da6 }
+    .linkedin:hover{ background-color:#3b3a36 }
+  .youtube{ background-color:#ca4638 }
+     .youtube:hover{ background-color:#3b3a36 }
+
+    .social-icons span { display: none; }
+
+    .bg-primary {
+        background-color: #b44242 !important;
+    }
+
+    li
+    {
+        
+            max-width: 85px;
+            max-height: 85px;
+            & a  {
+                max-width: 85px;
+                max-height: 85px;
+                overflow: hidden;
+
+                & img {
+                    width: 72px;
+                    height: 89px;
+                    background-size: contain;
+                }
+            }
+    } 
+
+    .media  img{
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+        margin-right: 5px;
+    }
+    
