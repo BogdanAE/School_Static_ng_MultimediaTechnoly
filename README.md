@@ -1,0 +1,2 @@
+# School_Static_ng_MultimediaTechnoly
+School project
